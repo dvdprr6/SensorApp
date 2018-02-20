@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gyroscope_title"
+        android:textColor="@color/colorGyroscopeTitle"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center|top"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView android:id="@+id/GyroTextViewX"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:text="CENTER"
+        android:layout_margin="10px"   />
+
+
+    <TextView android:id="@+id/GyroTextViewY"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:text="CENTER"
+        android:layout_margin="10px"   />
+
+
+    <TextView android:id="@+id/GyroTextViewZ"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:text="CENTER"
+        android:layout_margin="10px"   />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+</LinearLayout>
