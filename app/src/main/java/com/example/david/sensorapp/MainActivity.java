@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent gyroscopeActivityIntent = new Intent(MainActivity.this, Gyroscope.class);
                 startActivityForResult(gyroscopeActivityIntent, SPY);
-                //startActivity(gyroscopeActivityIntent);
             }
         });
 
