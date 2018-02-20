@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorMainTitle">#d240ff</color>
     <color name="colorAccelerometerTitle">#ff0004</color>
+    <color name="colorGyroscopeTitle">#0011ff</color>
 </resources>

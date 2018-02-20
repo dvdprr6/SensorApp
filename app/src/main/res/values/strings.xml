@@ -2,5 +2,7 @@
     <string name="app_name">SensorApp</string>
     <string name="main_title">Welcome to Sensor App</string>
     <string name="accelerometer_btn">Accelerometer</string>
+    <string name="gyroscope_btn">Gyroscope</string>
     <string name="accelerometer_title">Accelerometer</string>
+    <string name="gyroscope_title">Gyroscope</string>
 </resources>
