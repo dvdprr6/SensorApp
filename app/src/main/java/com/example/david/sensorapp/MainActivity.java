@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button accelerometerButton = findViewById(R.id.accBtn);
+        Button gyroscopeButton = findViewById(R.id.gyroBtn);
 
         accelerometerButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -25,6 +26,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(accelerometerActivityIntent, SPY);
             }
         });
+
+        gyroscopeButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent gyroscopeActivityIntent = new Intent(MainActivity.this, Gyroscope.class);
+                startActivityForResult(gyroscopeActivityIntent, SPY);
+                //startActivity(gyroscopeActivityIntent);
+            }
+        });
+
     }
 
     @Override
